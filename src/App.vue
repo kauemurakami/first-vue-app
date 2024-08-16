@@ -15,8 +15,11 @@ function decrement() {
 
 <template>
   
-  <h1>Count is: {{ counter.count }}</h1>
-  <br/>
-  <button v-on:click="incremment"> + </button>
-  <button v-on:click="decrement"> - </button>
+    <h1>Count is: {{ counter.count }}</h1>
+    <br/>
+    <button type="button" class="btn btn-outline-primary btn-sm" v-on:click="incremment"> + </button>
+    <button type="button" class="btn btn-outline-danger btn-sm" v-on:click="decrement"> - </button>
 </template>
+
+
+
